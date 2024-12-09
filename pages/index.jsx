@@ -6,7 +6,6 @@ import Head from '@src/components/Head';
 import resolvePath from '@src/utils/resolvePath';
 import appConfig from '@src/config/app';
 import { useTranslation, defaultLocale } from '@src/i18n';
-import guestList from './guest_list.json';
 
 const translateConfig = (appConfig, locale) => {
   if (!locale || locale === defaultLocale) {
